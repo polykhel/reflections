@@ -1,4 +1,4 @@
-﻿What happens when you initialize a repository? Why do you need to do it?
+What happens when you initialize a repository? Why do you need to do it?
 - to start git
 
 How is the staging area different from the working directory and the repository?
@@ -14,9 +14,12 @@ organized? How would branches help?
 -when you want to try something that you're not sure will work.
 
 How do the diagrams help you visualize the branch structure?
+-it helps me know what branches exist and how to get to them
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+-it combines all the commits. it is useful for collaboration.;
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+-git can't correctly predict human-written code yet. it may make a mistake which could lead to bugs. merging manually is a long task
